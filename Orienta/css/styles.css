@@ -1344,6 +1344,9 @@ a:hover.back-to-top {
 /*     18. Media Queries     */
 /*****************************/	
 @media (max-width: 767px) {
+	html {
+		width: fit-content;
+	}
 	.navbar-custom .navbar-brand.logo-text {
 		font: 700 1.5rem "Montserrat", sans-serif;
 	}

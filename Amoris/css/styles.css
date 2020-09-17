@@ -1219,7 +1219,7 @@ input[type='checkbox'] {
 	padding-top: 6.25rem;
 	padding-bottom: 5.625rem;
 	background: url('../images/contact-background.jpg') center bottom no-repeat;
-	background-size: cover; 
+	background-size: contain; 
 }
 
 .form h2 {
@@ -1344,6 +1344,9 @@ a:hover.back-to-top {
 /*     18. Media Queries     */
 /*****************************/	
 @media (max-width: 767px) {
+	html {
+		width: fit-content;
+	}
 	.navbar-custom .navbar-brand.logo-text {
 		font: 700 1.5rem "Montserrat", sans-serif;
 	}
